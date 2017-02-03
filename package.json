@@ -1,0 +1,26 @@
+{
+  "name": "mylib",
+  "version": "0.0.1",
+  "description": "My own JS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sengeezer/mylib.git"
+  },
+  "keywords": [
+    "own",
+    "personal",
+    "javascript",
+    "js",
+    "library"
+  ],
+  "author": "FMA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sengeezer/mylib/issues"
+  },
+  "homepage": "https://github.com/sengeezer/mylib#readme"
+}
