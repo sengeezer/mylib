@@ -1,8 +1,8 @@
 {
   "name": "mylib",
   "version": "0.0.1",
-  "description": "My own JS library",
-  "main": "index.js",
+  "description": "My own javascript library",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +12,11 @@
   },
   "keywords": [
     "own",
-    "personal",
-    "javascript",
     "js",
+    "javascript",
     "library"
   ],
-  "author": "FMA",
+  "author": "Fabio M. Albertin <fabio@albertin.co.uk> (http://ifab.io/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sengeezer/mylib/issues"
