@@ -1,5 +1,5 @@
 {
-  "name": "mylib",
+  "name": "my-lib",
   "version": "0.0.1",
   "description": "My own javascript library",
   "main": "src/index.js",
