@@ -1,5 +1,5 @@
-var uniqueRandomArr = require('unique-random-array');
-var SWNames = require('./SWcharsdata.json');
+import uniqueRandomArr from 'unique-random-array';
+import SWNames from './SWcharsdata.json';
 
 var getRandomItem = uniqueRandomArr(SWNames);
 

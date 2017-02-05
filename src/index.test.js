@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var starwars = require('./index');
+import {expect} from 'chai';
+import starwars from './index';
 
 describe('my-lib-a', function() {
   describe('all', function() {
