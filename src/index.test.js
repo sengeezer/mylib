@@ -1,5 +1,5 @@
-let expect = require('chai').expect;
-let starwars = require('./index');
+var expect = require('chai').expect;
+var starwars = require('./index');
 
 describe('my-lib-a', function() {
   describe('all', function() {
@@ -20,12 +20,12 @@ describe('my-lib-a', function() {
 
   describe('random', function() {
     it('should return a random item from starwars.all', function() {
-      let randomItem = starwars.random();
+      var randomItem = starwars.random();
       expect(starwars.all).to.include(randomItem);
     });
 
     it('should return an array of n random items', function() {
-      let randomItems = starwars.random(3);
+      var randomItems = starwars.random(3);
       expect(randomItems).to.have.length(3);
       randomItems.forEach(function(item) {
         expect(starwars.all).to.include(item);

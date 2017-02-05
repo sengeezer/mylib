@@ -1,7 +1,7 @@
-const uniqueRandomArr = require('unique-random-array');
-const SWNames = require('./SWcharsdata.json');
+var uniqueRandomArr = require('unique-random-array');
+var SWNames = require('./SWcharsdata.json');
 
-let getRandomItem = uniqueRandomArr(SWNames);
+var getRandomItem = uniqueRandomArr(SWNames);
 
 function random(number) {
     if(number === undefined) {
@@ -9,7 +9,7 @@ function random(number) {
     } else {
       let randomItems = [];
 
-      for(let i = 0; i < number; i++) {
+      for(var i = 0; i < number; i++) {
         randomItems.push(getRandomItem());
       }
 
